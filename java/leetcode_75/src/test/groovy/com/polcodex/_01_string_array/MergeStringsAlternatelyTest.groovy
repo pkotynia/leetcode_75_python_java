@@ -5,13 +5,13 @@ import spock.lang.Specification
 class MergeStringsAlternatelyTest extends Specification {
     def "Should merge two strings"() {
         expect:
-            MergeStringsAlternately.mergeAlternately(word1,word2) == word3
+        MergeStringsAlternately.mergeAlternately(word1, word2) == word3
 
         where:
-            word1 | word2 | word3
-            "a" | "a" | "aa"
-            "abc" | "pqr" | "apbqcr"
-            "ab" | "pqrs" | "apbqrs"
+        word1 | word2  | word3
+        "a"   | "a"    | "aa"
+        "abc" | "pqr"  | "apbqcr"
+        "ab"  | "pqrs" | "apbqrs"
     }
 
 }
