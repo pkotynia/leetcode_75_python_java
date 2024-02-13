@@ -11,9 +11,10 @@ class TestSequence(unittest.TestCase):
 
 
 def test_generator(candies, additional_candies, expected):
-    return test(self):
+    def test(self):
         self.assertEqual(kids_with_the_greatest_number_of_candies(
             candies, additional_candies), expected)
+    return test
 
 
 if __name__ == "__main__":
