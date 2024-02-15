@@ -1,6 +1,9 @@
 #python
 **/__pycache__/
 
+#vs code
+**/bin/
+
 # Compiled class file
 *.class
 
